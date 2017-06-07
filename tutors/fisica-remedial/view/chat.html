@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fisica Remedial Bot</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="chat-window" id="chat_window_1">
+            <div class="col-xs-12 col-md-12">
+                <div class="panel panel-default">
+                    <div id="panel_body" class="panel-body msg_container_base">
+                        <div id="send_message" class="row msg_container base_sent">
+                            <div class="col-md-10 col-xs-10">
+                                <div class="messages msg_sent">
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-2 avatar">
+                                <img src="http://www.bitrebels.com/wp-content/uploads/2011/02/Original-Facebook-Geek-Profile-Avatar-1.jpg" class=" img-responsive ">
+                            </div>
+                        </div>
+                        <div id="receive_message" class="row msg_container base_receive">
+                            <div class="col-md-2 col-xs-2 avatar">
+                                <img src="https://image.flaticon.com/icons/svg/229/229622.svg" class=" img-responsive ">
+                            </div>
+                            <div class="col-md-10 col-xs-10">
+                                <div class="messages msg_receive">
+                                    <p>Hola! En qué te puedo ayudar?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="input-group">
+                            <input id="btn-input" type="text" class="chat_input form-control input-sm" placeholder="Escribe aqui...(Pulsa 'Enter' para enviar)"/>
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" id="btn-chat">Enviar</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+

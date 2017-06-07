@@ -1,0 +1,12 @@
+show tables
+;
+help
+show collections
+show dbs
+use fisica-remedial
+show collections
+fisica-remedial.documents.find()
+db.documents.find()
+db.messages.find()
+use fisica-remedial
+db.messages.find()
